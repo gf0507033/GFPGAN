@@ -84,7 +84,7 @@ class GFPGANer():
             save_ext='png',
             use_parse=True,
             device=self.device,
-            model_rootpath=model_rootpath)
+            model_rootpath=facehelper_path)
 
         if model_path.startswith('https://'):
             model_path = load_file_from_url(
